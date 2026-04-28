@@ -1,0 +1,37 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- SQL Server Driver -->
+        <property name="hibernate.connection.driver_class">
+            com.microsoft.sqlserver.jdbc.SQLServerDriver
+        </property>
+
+        <!-- DB URL -->
+        <property name="hibernate.connection.url">
+            jdbc:sqlserver://localhost:1433;databaseName=TestDB;encrypt=true;trustServerCertificate=true;
+        </property>
+
+        <!-- 帳密 -->
+        <property name="hibernate.connection.username">Lorlith</property>
+        <property name="hibernate.connection.password">8300322</property>
+
+        <!-- Dialect（很重要） -->
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.SQLServerDialect
+        </property>
+
+        <!-- 顯示 SQL -->
+        <property name="hibernate.show_sql">true</property>
+		<property name="format_sql">true</property>
+
+        <!-- 自動建表（測試用） -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        
+        <mapping class="com.example.entity.Users"/>
+
+    </session-factory>
+</hibernate-configuration>
