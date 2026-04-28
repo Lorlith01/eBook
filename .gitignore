@@ -1,5 +1,8 @@
 # Eclipse
 .metadata/
+.settings/
+.classpath
+.project
 *.log
 
 # build
