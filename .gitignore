@@ -1,0 +1,14 @@
+# Eclipse
+.metadata/
+*.log
+
+# build
+/target/
+/build/
+
+# temp
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
