@@ -16,7 +16,7 @@ public class HomeController {
 	@RequestMapping("/home")
 	public String home() {
 		// http://localhost:8080/eBook/home
-		// git test1
+		// git test 2
 		return "home";
 	}
 	
