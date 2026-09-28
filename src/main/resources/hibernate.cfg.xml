@@ -17,7 +17,7 @@
 
         <!-- 帳密 -->
         <property name="hibernate.connection.username">Lorlith</property>
-        <property name="hibernate.connection.password">8300322</property>
+        <property name="hibernate.connection.password">qQ8300322</property>
 
         <!-- Dialect（很重要） -->
         <property name="hibernate.dialect">

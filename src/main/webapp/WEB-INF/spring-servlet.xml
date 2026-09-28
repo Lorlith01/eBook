@@ -33,7 +33,7 @@
 	    <property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
 	    <property name="url" value="jdbc:sqlserver://localhost:1433;databaseName=TestDB;encrypt=true;trustServerCertificate=true;"/>
 	    <property name="username" value="Lorlith"/>
-	    <property name="password" value="8300322"/>
+	    <property name="password" value="qQ8300322"/>
 	</bean>
 	
 	<!-- SessionFactory --><!-- 取代Hibernate，把sessionFactory納入Srping容器控管 -->
